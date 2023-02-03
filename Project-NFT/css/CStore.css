@@ -1,0 +1,198 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+    width: 430px; 
+   height: 30px;
+   
+  
+  
+  
+  }
+  
+  li {
+      float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 6px 16px 9px;
+    text-decoration: none;
+  
+   
+   font-size: small;
+  
+  }
+  
+  li a:hover {
+    background-color: #111;
+    color: whitesmoke;
+    transition: background-color 2s ease-out 3ms;
+  
+  }
+  
+  #li-1{
+  color: rgb(255, 255, 255);
+  background-color: black;
+  }
+  
+  
+  
+  
+  #section-nav{
+  
+  margin-top: 20px;
+  
+  
+  }
+  
+  #all-nav{
+      display: flex;
+      gap: 76%;
+      width: 90%;
+     
+      
+  }
+  
+  #logo-icon{
+  display: flex;
+  gap: 20%;
+  }
+  
+  .fa-facebook {
+      background: rgb(255, 255, 255);
+      color: black;
+      
+    }
+  
+  .fa-instagram {
+      background: rgb(255, 255, 255);
+      color: black;
+    }
+  
+  .fa-twitter {
+      background: rgb(255, 255, 255);
+      color: black;
+    }
+    
+    #icon{
+  
+      margin-top: 44px;
+    }
+  
+  header{
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+   
+  }
+
+  .cards{
+
+width: 290px;
+height: 420px;
+border: 1px solid rgb(36, 35, 35);
+
+  }
+  .cards-img{
+
+    width:289px;
+    
+    height:200px;
+  }
+
+  .cards-button{
+margin-left: 31%;
+
+width: 110px;
+height:40px ;
+
+border: 0px solid skyblue;
+background-color: aqua;
+color: rgb(255, 255, 255);
+
+  }
+
+  .cards-button:hover{
+
+        background-color: rgb(230, 145, 35);
+        transition: background-color 2s ease 1ms;
+
+  }
+
+  #store-cont{
+
+margin-top: 5%;
+margin-left: 25%;
+gap: 50px;
+display: flex;
+  }
+
+  #store-cont2{
+
+    margin-top: 5%;
+    margin-left: 25%;
+    gap: 50px;
+    display: flex;
+  }
+
+  #store-cont3{
+
+    margin-top: 5%;
+    margin-left: 25%;
+    gap: 50px;
+    display: flex;
+  }
+  #support{
+    justify-content: center;
+    display: grid;
+    
+    }
+    #support-email{
+    width:450px;
+    height: 35px;
+    border:2px solid rgb(2, 2, 2);
+    }
+    
+    #support-dis{
+    
+      width:450px;
+    
+      border:2px solid rgb(2, 2, 2);
+    
+    }
+    #footer-h1{
+      display: grid;
+      justify-content: center;
+     
+    }
+    
+    #support-button{
+      width:450px;
+      height: 32px;
+    color: whitesmoke;
+      border:1px solid rgb(2, 2, 2);
+    background-color: black;
+    }
+    
+    #all-footer{
+    margin-top: 22px;
+    
+    }
+    
+    #copyright{
+    font-size: medium;
+    text-align: center;
+    font-style: italic;
+    
+    }
+    .hr{
+        border: 2px solid rgb(0, 0, 0);
+        width:100%;
+        
+      }

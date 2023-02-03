@@ -1,0 +1,438 @@
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(252, 252, 252);
+  width: 430px; 
+ height: 30px;
+ 
+
+
+
+}
+
+li {
+    float: left;
+  
+}
+
+li a {
+  display: block;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  padding: 6px 16px 9px;
+  text-decoration: none;
+
+ 
+ font-size: small;
+
+}
+
+li a:hover {
+  background-color: #111;
+  color: whitesmoke;
+  transition: background-color 2s ease-out 3ms;
+
+}
+
+#li-1{
+color: rgb(255, 255, 255);
+background-color: black;
+}
+
+
+
+
+#section-nav{
+
+margin-top: 20px;
+
+
+}
+
+#all-nav{
+    display: flex;
+    gap: 76%;
+    width: 90%;
+   
+    
+}
+
+#logo-icon{
+display: flex;
+gap: 20%;
+}
+
+.fa-facebook {
+    background: rgb(255, 255, 255);
+    color: black;
+    
+  }
+
+.fa-instagram {
+    background: rgb(255, 255, 255);
+    color: black;
+  }
+
+.fa-twitter {
+    background: rgb(255, 255, 255);
+    color: black;
+  }
+  
+  #icon{
+
+    margin-top: 44px;
+  }
+
+header{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+ 
+}
+
+
+main{
+
+width: 100%;
+
+
+
+}
+#desart{
+
+width: 100%;
+ /* position:relative ; */
+
+
+}
+
+#desart-h1{
+
+  position: absolute;
+top: 37%;
+right: 45%;
+font-size: 100px;
+color: rgb(255, 255, 255);
+}
+
+#desart-button{
+  position: absolute;
+  top: 55%;
+right: 47%;
+background-color: aqua;
+border-radius: 40px;
+font-size: 20px;
+padding:18px 45px 18px  ;
+padding:18px 45px 18px  ;
+font-weight: bold;
+border: aqua ;
+}
+
+#desart-button:hover{
+background-color: antiquewhite;
+transition: background-color 2s ease 1ms;
+color: rgb(240, 124, 29);
+}
+
+#desart-button2{
+  position: absolute;
+  top: 65%;
+right: 45.2%;
+background-color: aqua;
+border-radius: 40px;
+font-size: 20px;
+padding:18px 45px 18px  ;
+width: 13%;
+border: aqua ;
+font-weight: bolder;
+
+}
+
+#desart-button2:hover{
+background-color: antiquewhite;
+transition: background-color 2s ease 1ms;
+color: rgb(240, 124, 29);
+}
+
+#side-left{
+  width: 20%;
+  margin-left:4%;
+  display: flex;
+  gap: 120px;
+}
+
+#font-left{
+  width: 90%;
+  font-size: 60px;
+  margin-top: 100px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow:2px 2px brown ;
+}
+#line-left{
+border-left: 6px solid rgb(0, 0, 0);
+height: 590px;
+}
+
+#cont-all{
+
+display: flex;
+
+}
+
+#font-mid{
+margin-top: 10px;
+  margin-left:400px;
+  text-shadow:1px 1px brown ;
+  margin-right: 100px;
+}
+.pic-left{
+margin-left:20px;
+
+}
+.nft-rewars{
+display: flex;
+gap: 10px;
+}
+
+#re-1{
+
+  margin-top: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  width: 200px;
+}
+
+#re-2{
+
+  margin-top: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  width: 200px;
+}
+
+#re-3{
+
+  margin-top: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  width: 200px;
+}
+
+.nft-rewars-right{
+  display: flex;
+  gap: 10px;
+ 
+  
+  }
+
+  #mid-nft-right{
+margin-top: 140px;
+    
+  }
+
+  #line-right{
+    border-left: 6px solid rgb(0, 0, 0);
+    height: 590px;
+    }
+    #cont2{
+
+      display: flex;
+    }
+
+    #side-right{
+      width: 15%;
+      margin-left: 80px;
+      display: flex;
+    
+    }
+
+    #font-right{
+      width: 90%;
+      font-size: 60px;
+      margin-top: 100px;
+      color: black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .hr{
+      border: 2px solid rgb(0, 0, 0);
+      width:100%;
+      
+    }
+     
+    #about-warz{
+margin-left: 11%;
+width: 40%;
+margin-top: 8%;
+    }
+
+    #about-h1{
+
+color: rgb(218, 123, 0);
+text-shadow: 2px 2px #111;
+    }
+
+    #about-p{
+
+font-size: 24px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
+    #about-warz-img{
+width: 70%;
+
+      margin-left: 10%;
+      
+    }
+
+    #about-all{
+
+      display: flex;
+    
+    }
+    #about-button{
+margin-left: 36%;
+background-color:rgb(221, 191, 151) ;
+border: none;
+border-radius: 20px;
+padding: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-shadow:  rgb(0, 0, 0);
+width:130px;
+font-style: italic;
+
+
+    }
+
+
+    #about-button:hover{
+      background-color: antiquewhite;
+      transition: background-color 2s ease 1ms;
+      }
+      
+
+#prize-winner{
+display: flex;
+gap:300px ;
+
+}
+
+   
+
+      #prize-h2{
+
+color: rgb(156, 77, 12);
+  
+      }
+      .prize-img{
+
+margin-top:9%;
+border-radius:2px;
+        
+      }
+
+      .prize-flex{
+
+display: flex;  
+gap: 20px;      
+      }
+
+      .prize-p{
+margin-top: 17%;
+font-weight: bold;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+      }
+
+      .slider
+{
+  width:700px;
+ 
+  overflow:hidden;
+ 
+  border: 0px solid black;
+  border-width:100%;
+  border-radius:1px;
+  height: 500px;
+
+
+
+}
+
+.slider ul{
+padding:0px;
+margin:0px;
+width:2800px;
+list-style:none;
+position:relative;
+animation: sliding 12s ease-in-out infinite;
+height: 600px;
+}
+
+.slider ul li 
+{
+ float:left;
+
+}
+
+@keyframes sliding
+{
+10%,25%{left:0;}
+30%,50%{left:-700px;}
+55%,75%{left:-1400px;}
+80%,90%{left:-2100px;}
+}
+
+#support{
+justify-content: center;
+display: grid;
+
+}
+#support-email{
+width:450px;
+border:2px solid rgb(2, 2, 2);
+height: 35px;
+}
+
+#support-dis{
+
+  width:450px;
+
+  border:2px solid rgb(2, 2, 2);
+
+}
+#footer-h1{
+  display: grid;
+  justify-content: center;
+}
+
+#support-button{
+  width:450px;
+  height: 32px;
+color: whitesmoke;
+  border:1px solid rgb(2, 2, 2);
+background-color: black;
+}
+
+#all-footer{
+margin-top: 22px;
+
+}
+
+#copyright{
+font-size: medium;
+text-align: center;
+font-style: italic;
+
+}
+#brand{
+
+justify-content: center;
+}
+

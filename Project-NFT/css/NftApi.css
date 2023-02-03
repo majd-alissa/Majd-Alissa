@@ -1,0 +1,119 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+    width: 430px; 
+   height: 30px;
+   
+  
+  
+  
+  }
+  
+  li {
+      float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 6px 16px 9px;
+    text-decoration: none;
+  
+   
+   font-size: small;
+  
+  }
+  
+  li a:hover {
+    background-color: #111;
+    color: whitesmoke;
+    transition: background-color 2s ease-out 3ms;
+  
+  }
+  
+  #li-1{
+  color: rgb(255, 255, 255);
+  background-color: black;
+  }
+  
+  
+  
+  
+  #section-nav{
+  
+  margin-top: 20px;
+  
+  
+  }
+  
+  #all-nav{
+      display: flex;
+      gap: 76%;
+      width: 90%;
+     
+      
+  }
+  
+  #logo-icon{
+  display: flex;
+  gap: 20%;
+  }
+  
+  .fa-facebook {
+      background: rgb(255, 255, 255);
+      color: black;
+      
+    }
+  
+  .fa-instagram {
+      background: rgb(255, 255, 255);
+      color: black;
+    }
+  
+  .fa-twitter {
+      background: rgb(255, 255, 255);
+      color: black;
+    }
+    
+    #icon{
+  
+      margin-top: 44px;
+    }
+  
+  header{
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+   
+  }
+
+  #rand-button{
+  
+   margin-left: 42%;
+
+  background-color: aqua;
+  border-radius: 40px;
+  font-size: 20px;
+  padding:18px 45px 18px  ;
+  width: 16%;
+  border: aqua ;
+  font-weight: bolder;
+  
+  }
+  
+  #rand-button:hover{
+  background-color: antiquewhite;
+  transition: background-color 2s ease 1ms;
+  color: rgb(240, 124, 29);
+  }
+
+  #ran-img{
+
+border-radius: 150px;
+
+  }
