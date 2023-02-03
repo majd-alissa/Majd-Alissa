@@ -156,4 +156,14 @@ margin-left: 0.1%;
         
       }
 
-      
+      @media only screen and (max-width: 1440px){
+
+        
+        #all-nav{
+          width: 77%;
+          
+                }
+  
+  
+   
+  }

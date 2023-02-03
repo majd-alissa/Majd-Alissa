@@ -196,3 +196,14 @@ display: flex;
         width:100%;
         
       }
+
+      @media only screen and (max-width: 1440px){
+
+        
+        #all-nav{
+          width: 77%;
+          
+                }
+  
+   
+  }

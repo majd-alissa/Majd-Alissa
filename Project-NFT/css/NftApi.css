@@ -117,3 +117,14 @@ ul {
 border-radius: 150px;
 
   }
+
+  @media only screen and (max-width: 1440px){
+
+        
+    #all-nav{
+      width: 77%;
+      
+            }
+
+
+}

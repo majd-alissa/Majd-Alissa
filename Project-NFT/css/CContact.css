@@ -243,3 +243,14 @@ gap: 427px;
         width:100%;
         
       }
+
+      @media only screen and (max-width: 1440px){
+
+        
+        #all-nav{
+  width: 66%;
+  
+        }
+  
+   
+  }

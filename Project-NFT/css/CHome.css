@@ -436,3 +436,72 @@ font-style: italic;
 justify-content: center;
 }
 
+
+
+/* @media  (width<=1024px) {
+  #cont-all{
+width: 20%;
+gap: 0%;
+
+  }
+
+  #mid-nft-left{
+margin-left: 40%;
+    
+  }
+
+  #font-left{
+
+
+    font-size: 40px;
+
+  }
+
+} */
+@media only screen and (max-width: 1440px){
+
+  #cont-all{
+    width:20%;
+    gap: 0%;
+    
+      }
+    
+      #mid-nft-left{
+    margin-left: 50%;
+        
+      }
+    
+      #font-left{
+    
+    
+        font-size: 37px;
+    
+      }
+
+      #side-left{
+margin-left: 17%;
+gap: 77%;
+
+      }
+
+      #font-mid{
+
+        margin-left: 300px;
+      }
+      #line-left{
+
+        margin-left: 110%;
+      }
+
+      #all-nav{
+        width: 77%;
+        
+              }
+
+      #desart-button2{
+left: 570px;
+        width: 205px;
+      }
+}
+
+
